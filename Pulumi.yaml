@@ -1,0 +1,8 @@
+name: aws-webserver-asg-cs
+runtime: dotnet
+description: Auto-scaling Webserver [AWS, C#].
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://github.com/pulumi-demos/examples/csharp/aws-webserver-asg-cs
+pulumi:disable-default-providers: ["*"]
